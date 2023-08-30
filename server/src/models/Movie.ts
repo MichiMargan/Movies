@@ -14,6 +14,10 @@ const movieSchema = new Schema(
       type: Number,
       required: true,
     },
+    description: {
+      type: Number,
+      required: true,
+    },
   },
   {
     timestamps: true,
