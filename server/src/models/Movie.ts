@@ -15,7 +15,11 @@ const movieSchema = new Schema(
       required: true,
     },
     description: {
-      type: Number,
+      type: String,
+      required: true,
+    },
+    genres: {
+      type: String,
       required: true,
     },
   },
