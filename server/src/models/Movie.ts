@@ -25,9 +25,6 @@ const movieSchema = new Schema(
     release: {
       type: Date,
     },
-    credits: {
-      type: [String],
-    },
   },
   {
     timestamps: true,
